@@ -1,0 +1,139 @@
+@unlock_tooltip_template_cost = ### Unlock Cost {{{{itemblock cost unlock {0}}}}}
+@unlock_descr_trees = Розблоковує дерева (trees).
+`plant(Entities.Trees)`
+@unlock_descr_speed = Збільшує швидкість як дрона, так і виконання коду.
+@unlock_descr_plant = Розблоковує посадку (planting).
+`plant(Entities.Bush)`
+@unlock_descr_loops = Розблоковує простий цикл while (while loop).
+
+`while True:
+    harvest()`
+@unlock_descr_hats = Капелюхи (Hats) для вашого дрона.
+`change_hat(Hats.Green_Hat)`
+@unlock_descr_the_farmers_remains = ?????????
+@unlock_descr_top_hat = Дуже модний капелюх, який можуть носити лише найкращі дрони.
+@unlock_descr_senses = Дрон може бачити, що під ним і де він знаходиться.
+`if get_pos_x() < 5 and num_items(Items.Wood) < 200:
+    plant(Entities.Bush)`
+@unlock_descr_expand = Розширює землю ферми та розблоковує рух (movement).
+@unlock_descr_operators = Арифметичні оператори, оператори порівняння та логічні оператори.
+
+`if not can_harvest() and (1 + 1 == 4 / 2):
+    do_a_flip()`
+@unlock_descr_pumpkin = Гарбузи (Pumpkins)!
+`plant(Entities.Pumpkin)`
+@unlock_descr_variables = Присвоюйте значення змінним (variables).
+
+`next_plant = Entities.Bush
+plant(next_plant)`
+@unlock_descr_functions = Визначайте свої власні функції (functions).
+`def do_two_flips():
+    do_a_flip()
+    do_a_flip()
+
+do_two_flips()`
+@unlock_descr_watering = Поливайте рослини, щоб вони росли швидше.
+`use_item(Items.Water)`
+@unlock_descr_carrots = Оріть землю (soil) та саджайте моркву (carrots).
+
+`till()
+plant(Entities.Carrot)`
+@unlock_descr_lists = Використовуйте списки (lists), щоб зберігати багато значень.
+`plants = [Entities.Grass, Entities.Bush, Entities.Tree]
+
+for p in plants:
+    plant(p)
+    move(North)`
+@unlock_descr_costs = Дозволяє отримати доступ до вартості (cost) речей.
+`cost = get_cost(Entities.Carrot)
+for item in cost:
+	amount_needed = cost[item]`
+@unlock_descr_fertilizer = Вирощуйте рослини миттєво.
+`use_item(Items.Fertilizer)`
+@unlock_descr_mazes = Лабіринт зі скарбом посередині.
+`if get_entity_type() == Entities.Treasure:
+    harvest()`
+@unlock_descr_debug = Інструменти, що допомагають у налагодженні (debugging) програм.
+`print("hi")`
+@unlock_descr_debug2 = Функції для тимчасового уповільнення виконання (execution) та зменшення розміру ферми.
+`set_world_size(3)
+set_execution_speed(1)`
+@unlock_descr_grass = Збільшує врожайність трави (grass).
+@unlock_descr_auto_unlock = Автоматично розблоковує речі.
+`unlock(Unlocks.Megafarm)`
+@unlock_descr_polyculture = Використовуйте посадку рослин-компаньйонів для збільшення врожайності.
+
+`plant_type, (x, y) = get_companion()`
+@unlock_descr_sunflowers = Соняшники (Sunflowers) та Енергія (Power).
+`plant(Entities.Sunflowers)`
+@unlock_descr_leaderboard = Отримайте доступ до таблиці лідерів (leaderboard) для найшвидшого часу.
+
+`leaderboard_run(Leaderboards.Hay, "hay_file", speedup)`
+@unlock_descr_dicts = Отримайте доступ до словників (dictionaries) та множин (sets).
+`right_of = {North:East, East:South, South:West, West:North}`
+@unlock_descr_utilities = Розблоковує функції `min()`, `max()`, `abs()` та `random()`.
+`random_index = random() * len(list) // 1`
+@unlock_descr_cactus = Кактус (Cactus)!
+
+`plant(Entities.Cactus)`
+@unlock_descr_dinosaurs = Величні стародавні створіння.
+@unlock_descr_simulation = Тестуйте швидше та за відтворюваних умов.
+
+`run_time = simulate(filename, sim_unlocks, sim_items, sim_globals, seed, speedup)`
+@unlock_descr_timing = Саме час! (It's about time!)
+`passed_time = get_time()`
+@unlock_descr_import = Імпортуйте (Import) речі з інших файлів.
+
+`import other_file
+other_file.function()`
+@unlock_descr_megafarm = Більше дронів!
+
+`spawn_drone(task)`
+@multi_unlock_descr_expand = Розширює ферму.
+Це також очищає ферму.
+@multi_unlock_descr_carrots = Збільшує врожайність та вартість моркви (carrots).
+@multi_unlock_descr_trees = Збільшує врожайність кущів (bushes) та дерев (trees).
+@multi_unlock_descr_pumpkins = Збільшує врожайність та вартість гарбузів (pumpkins).
+@multi_unlock_descr_mazes = Збільшує золото в скринях зі скарбами та кількість weird substance, необхідну для створення лабіринту.
+@multi_unlock_descr_sunflowers = Збільшує енергію (power), що отримується з соняшників.
+@multi_unlock_descr_cactus = Збільшує врожайність та вартість кактусів (cactus).
+@multi_unlock_descr_dinosaur = Збільшує врожайність та вартість динозаврів (dinosaurs).
+@multi_unlock_descr_polyculture = Збільшує множник врожайності від полікультури (polyculture).
+@multi_unlock_descr_watering = Отримуйте більше води (water).
+@multi_unlock_descr_fertilizer = Отримуйте більше добрива (fertilizer).
+@multi_unlock_descr_megafarm = Збільшує кількість дронів ще більше.
+@auto_unlock = Auto Unlock (Авто-розблокування)
+@cactus = Cactus (Кактус)
+@carrots = Carrots (Морква)
+@costs = Costs (Вартості)
+@debug = Debug (Налагодження)
+@debug_2 = Debug_2
+@dictionaries = Dictionaries (Словники)
+@dinosaurs = Dinosaurs (Динозаври)
+@expand = Expand (Розширення)
+@expand_2 = Expand 2 (Розширення 2)
+@fertilizer = Fertilizer (Добриво)
+@functions = Functions (Функції)
+@grass = Grass (Трава)
+@hats = Hats (Капелюхи)
+@import = Import (Імпорт)
+@leaderboard = Leaderboard (Таблиця лідерів)
+@lists = Lists (Списки)
+@loops = Loops (Цикли)
+@mazes = Mazes (Лабіринти)
+@megafarm = Megafarm (Мегаферма)
+@operators = Operators (Оператори)
+@plant = Plant (Посадка)
+@polyculture = Polyculture (Полікультура)
+@pumpkins = Pumpkins (Гарбузи)
+@senses = Senses (Відчуття)
+@simulation = Simulation (Симуляція)
+@speed = Speed (Швидкість)
+@sunflowers = Sunflowers (Соняшники)
+@timing = Timing (Таймінг)
+@trees = Trees (Дерева)
+@the_farmers_remains = ?
+@top_hat = Top Hat (Циліндр)
+@utilities = Utilities (Утиліти)
+@variables = Variables (Змінні)
+@watering = Watering (Полив)

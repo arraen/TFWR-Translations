@@ -1,0 +1,16 @@
+@lb_descr_fastest_reset = Повністю автоматизуйте всю гру.
+@lb_descr_maze = Нафарміть 9863168 золота (gold).
+@lb_descr_maze_single = Нафарміть 616448 золота (gold).
+@lb_descr_dinosaur = Нафарміть 33488928 кісток (bones).
+@lb_descr_cactus = Нафарміть 33554432 кактусів (cacti).
+@lb_descr_cactus_single = Нафарміть 131072 кактусів (cacti).
+@lb_descr_sunflowers = Нафарміть 100000 енергії (power).
+@lb_descr_sunflowers_single = Нафарміть 10000 енергії (power).
+@lb_descr_pumpkins = Нафарміть 200M гарбузів (pumpkins).
+@lb_descr_pumpkins_single = Нафарміть 20M гарбузів (pumpkins).
+@lb_descr_hay = Нафарміть 2B сіна (hay).
+@lb_descr_hay_single = Нафарміть 200M сіна (hay).
+@lb_descr_wood = Нафарміть 10B дерева (wood).
+@lb_descr_wood_single = Нафарміть 1B дерева (wood).
+@lb_descr_carrots = Нафарміть 2B моркви (carrots).
+@lb_descr_carrots_single = Нафарміть 200M моркви (carrots).

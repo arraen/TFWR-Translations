@@ -1,0 +1,18 @@
+@word_number = число
+@word_direction = напрямок
+@run_cancelled = Run Failed (Запуск не вдався)
+@average_text = {0} Runs Completed ({2:F1}%) (Запусків завершено)
+{1}
+@average_text2 = {0} Runs Completed (Запусків завершено)
+{1}
+@unlocked_in = Для додаткової інформації дивіться: [{0}]({1})
+@table_of_contents_section_general_info = General Info (Загальна інформація)
+@table_of_contents_section_programming = Programming (Програмування)
+@table_of_contents_section_unlocks = Unlocks (Технології)
+@table_of_contents_section_builtins = Built-in Functions (Вбудовані функції)
+@table_of_contents_section_items = Items (Предмети)
+@table_of_contents_section_entities = Entities (Об'єкти)
+@table_of_contents_section_grounds = Grounds (Землі)
+@new_hat_unlocked = ## New Hat Unlocked (Новий капелюх розблоковано)
+`change_hat(`{0}`)`
+@right_click_for_more_info = -- right click for more information (ПКМ для інформації) --
