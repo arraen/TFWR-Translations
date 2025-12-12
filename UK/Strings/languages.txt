@@ -1,0 +1,15 @@
+@language = Мова
+@EN = English (Англійська)
+@FR = French
+@DE = German
+@ES = Spanish
+@PT = Protuguese
+@IT = Italian
+@JA = Japanese
+@ZH = Simplified Chinese
+@KO = Korean
+@TR = Turkish
+@AR = Arabic
+@RU = Russian
+@PL = Polish
+@UA = Українська
