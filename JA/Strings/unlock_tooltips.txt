@@ -1,0 +1,156 @@
+@unlock_tooltip_template_cost = ### アンロックコスト {{{{itemblock cost unlock {0}}}}}
+@unlock_descr_trees = 木をアンロックします。
+
+`plant(Entities.Trees)`
+@unlock_descr_speed = ドローンとコード実行の両方の速度を向上させます。
+@unlock_descr_plant = 植え付けをアンロックします。
+
+`plant(Entities.Bush)`
+@unlock_descr_loops = 簡単なwhileループをアンロックします。
+
+`while True:
+    harvest()`
+@unlock_descr_hats = ドローン用の帽子。
+
+`change_hat(Hats.Green_Hat)`
+@unlock_descr_the_farmers_remains = ?????????
+@unlock_descr_top_hat = 最高のドローンだけが身につけられる、とってもおしゃれな帽子。
+@unlock_descr_senses = ドローンは自分の下にあるものと自分の位置を確認できるようになります。
+
+`if get_pos_x() < 5 and num_items(Items.Wood) < 200:
+    plant(Entities.Bush)`
+@unlock_descr_expand = 農地を拡大し、移動をアンロックします。
+@unlock_descr_operators = 算術、比較、論理演算子。
+
+`if not can_harvest() and (1 + 1 == 4 / 2):
+    do_a_flip()`
+@unlock_descr_pumpkin = カボチャ！
+
+`plant(Entities.Pumpkin)`
+@unlock_descr_variables = 変数に値を割り当てます。
+
+`next_plant = Entities.Bush
+plant(next_plant)`
+@unlock_descr_functions = 独自の関数を定義します。
+
+`def do_two_flips():
+    do_a_flip()
+    do_a_flip()
+
+do_two_flips()`
+@unlock_descr_watering = 植物に水をやって成長を早めます。
+
+`use_item(Items.Water)`
+@unlock_descr_carrots = 土を耕し、ニンジンを植えます。
+
+`till()
+plant(Entities.Carrot)`
+@unlock_descr_lists = リストを使ってたくさんの値を保存します。
+
+`plants = [Entities.Grass, Entities.Bush, Entities.Tree]
+
+for p in plants:
+    plant(p)
+    move(North)`
+@unlock_descr_costs = 物のコストにアクセスできるようになります。
+
+`cost = get_cost(Entities.Carrot)
+for item in cost:
+	amount_needed = cost[item]`
+@unlock_descr_fertilizer = 植物を即座に成長させます。
+
+`use_item(Items.Fertilizer)`
+@unlock_descr_mazes = 中央に宝物がある迷路。
+
+`if get_entity_type() == Entities.Treasure:
+    harvest()`
+@unlock_descr_debug = プログラムのデバッグに役立つツール。
+
+`print("こんにちは")`
+@unlock_descr_debug2 = 実行を一時的に遅くし、農場を小さくする関数。
+
+`set_world_size(3)
+set_execution_speed(1)`
+@unlock_descr_grass = 草の収穫量を増やします。
+@unlock_descr_auto_unlock = 物を自動的にアンロックします。
+
+`unlock(Unlocks.Megafarm)`
+@unlock_descr_polyculture = コンパニオンプランティングを利用して収穫量を増やします。
+
+`plant_type, (x, y) = get_companion()`
+@unlock_descr_sunflowers = ヒマワリとパワー。
+
+`plant(Entities.Sunflowers)`
+@unlock_descr_leaderboard = 最速タイムを競うランキングに参加します。
+
+`leaderboard_run(Leaderboards.Hay, "hay_file", speedup)`
+@unlock_descr_dicts = 辞書とセットへのアクセスを取得します。
+
+`right_of = {North:East, East:South, South:West, West:North}`
+@unlock_descr_utilities = `min()`、`max()`、`abs()`、`random()` 関数をアンロックします。
+
+`random_index = random() * len(list) // 1`
+@unlock_descr_cactus = サボテン！
+
+`plant(Entities.Cactus)`
+@unlock_descr_dinosaurs = 雄大な古代の生き物。
+@unlock_descr_simulation = より速く、再現可能な条件下でテストします。
+
+`run_time = simulate(filename, sim_unlocks, sim_items, sim_globals, seed, speedup)`
+@unlock_descr_timing = 時は来たれり！
+
+`passed_time = get_time()`
+@unlock_descr_import = 他のファイルから物をインポートします。
+
+`import other_file
+other_file.function()`
+@unlock_descr_megafarm = もっとドローンを！
+
+`spawn_drone(task)`
+@multi_unlock_descr_expand = 農場を拡大します。これにより農場もクリアされます。
+@multi_unlock_descr_carrots = ニンジンの収穫量とコストを増やします。
+@multi_unlock_descr_trees = 茂みや木の収穫量を増やします。
+@multi_unlock_descr_pumpkins = カボチャの収穫量とコストを増やします。
+@multi_unlock_descr_mazes = 宝箱のゴールドと、迷路を生成するために必要な奇妙な物質の量を増やします。
+@multi_unlock_descr_sunflowers = ヒマワリから得られるパワーを増やします。
+@multi_unlock_descr_cactus = サボテンの収穫量とコストを増やします。
+@multi_unlock_descr_dinosaur = 恐竜の収穫量とコストを増やします。
+@multi_unlock_descr_polyculture = 混植の収穫量倍率を増やします。
+@multi_unlock_descr_watering = より多くの水を受け取ります。
+@multi_unlock_descr_fertilizer = より多くの肥料を受け取ります。
+@multi_unlock_descr_megafarm = ドローンの数をさらに増やします。
+@auto_unlock = 自動アンロック
+@cactus = サボテン
+@carrots = ニンジン
+@costs = コスト
+@debug = デバッグ
+@debug_2 = デバッグ_2
+@dictionaries = 辞書
+@dinosaurs = 恐竜
+@expand = 拡大
+@expand_2 = 拡大 2
+@fertilizer = 肥料
+@functions = 関数
+@grass = 草
+@hats = 帽子
+@import = インポート
+@leaderboard = ランキング
+@lists = リスト
+@loops = ループ
+@mazes = 迷路
+@megafarm = メガファーム
+@operators = 演算子
+@plant = 植え付け
+@polyculture = 混植
+@pumpkins = カボチャ
+@senses = 感覚
+@simulation = シミュレーション
+@speed = スピード
+@sunflowers = ヒマワリ
+@timing = タイミング
+@trees = 木
+@the_farmers_remains = ？
+@top_hat = トップハット
+@utilities = ユーティリティ
+@variables = 変数
+@watering = 水やり

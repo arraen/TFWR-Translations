@@ -1,0 +1,64 @@
+@error_missing_default_parameter = すべてのデフォルト引数は引数リストの末尾にある必要があります。
+@error_invalid_name = {0} は有効な名前ではありません。名前は英文字で始まり、英文字、数字、アンダースコアのみを含むことができます。また、予約済みキーワードにすることもできません。
+@error_reserved_keyword = {0} は予約済みキーワードです。名前として使用することはできません。
+@error_invalid_assign_expr = この式に値を代入することはできません。
+@error_no_statements = コードブロックには少なくとも1つのステートメントが含まれている必要があります。
+ステートメントは `harvest()` のような関数呼び出しや変数代入などです。
+コードブロックで何もしない場合は `pass` ステートメントを使用してください。
+@error_not_enough_indentation = ここのインデントが足りません。
+新しいコードブロックを作るには、: の後で前よりも多くのインデントが必要です。
+Tabキーを使用してコードをインデントしてください。
+@error_too_much_indentation = ここのインデントが多すぎます。
+コードブロック内のすべてのステートメントのインデントは同じでなければなりません。
+@error_not_a_statement = これは有効なステートメントではありません。
+@error_not_a_statement2 = これは有効なステートメントではありません。{0} と書くつもりでしたか？
+@error_invalid_expression = これは有効な式ではありません。
+@error_new_line_expected = ここに改行が必要です。
+@error_unexpected_token = ここに {0} が必要です。
+@error_missing_colon = すべてのコードブロックの先頭にはコロン `:` が必要です。
+@error_unexpected_assign = ここで代入はできません。等しいかどうかを確認するには、代わりに `==` を使用してください。
+@error_invalid_for_syntax = これは有効なforループではありません。forループは次のようなものです。
+`for n in range(3):`
+`for` の後には常にループ変数、`in`、そしてシーケンスが続きます。この例では `n` が変数名ですが、他の名前にも置き換えることができます。
+@error_unknown_method = このメソッドは存在しません。
+@error_bad_backslash = バックスラッシュは式を複数行に分割するために使用できます。しかし、その後ろに改行を追加する必要があります。
+@error_mixed_indentation = タブとスペースを混ぜて使用しないでください。
+@error_expected_close_token = カンマまたは閉じ括弧が必要です。
+@error_wrong_dict_literal = 辞書のキーと値を区切るために : が必要です。
+@error_assign_before_global = {0} がグローバル宣言の前に割り当てられています。
+@error_wildcard_imports_not_allowed_in_function = `from x import *` 形式のインポートは関数内では許可されていません。
+@error_invalid_import = 有効な識別子でない名前のファイルはインポートできません。有効な識別子は英文字、数字、アンダースコアのみを含むことができます。ファイル名に他の文字が含まれている場合は、名前を変更する必要があります。
+@error_invalid_number_format = この数値形式は無効です。
+@error_compared_item_with_number = {0} は数値ではなく、アイテムです。数値と比較することに意味はありません。
+
+もしそのアイテムをいくつ持っているかを確認したい場合は、代わりに `num_items(`{0}`)` を使用してください。
+@error_compared_entity_with_number = {0} は数値ではなく、エンティティです。数値と比較することに意味はありません。
+@error_compared_unlock_with_number = {0} は数値ではなく、アンロックです。数値と比較することに意味はありません。
+
+もしそれを何回アンロックしたかを確認したい場合は、代わりに `num_unlocked(`{0}`)` を使用してください。
+@error_nonsensical_or = 条件式で `or `{0} を使用するのは意味がありません。{0} は定数だからです。
+比較演算子は `or` の前に評価されることに注意してください。
+
+例:
+`x == 5 or 6` 
+は
+`(x == 5) or 6`
+と同じ意味です。
+0以外の数値は `True` と見なされるため、これは
+`(x == 5) or True`
+と同じ意味になり、
+常に `True` になります。
+
+これは理論的には有効なPythonコードですが、このように書く理由はまったくありません。
+@error_item_condition = {0} はアイテムであり、ブール値ではありません。それ自体を条件として使用するのは意味がありません。
+もしかして、ある値がそのアイテムと等しいかを確認したかったのではないでしょうか？
+`some_variable == `{0}
+@error_unlock_condition = {0} はアンロックであり、ブール値ではありません。それ自体を条件として使用するのは意味がありません。
+アンロックされているかどうかは、次のようにして確認できます:
+`num_unlocked(`{0}`) > 0`
+@error_entity_condition = {0} はエンティティであり、ブール値ではありません。それ自体を条件として使用するのは意味がありません。
+ドローンの下のエンティティの種類は、次のようにして確認できます:
+`get_entity_type() == `{0}
+@error_ground_condition = {0} は地面の種類であり、ブール値ではありません。それ自体を条件として使用するのは意味がありません。
+ドローンの下の地面の種類は、次のようにして確認できます:
+`get_ground_type() == `{0}

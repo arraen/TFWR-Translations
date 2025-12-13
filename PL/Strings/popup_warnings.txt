@@ -1,0 +1,13 @@
+@popup_warning_delete_files = Czy na pewno chcesz trwale usunąć {0}? Tej operacji nie można cofnąć.
+@popup_warning_delete_save = Czy na pewno chcesz usunąć {0}?
+@delete = Usuń
+@cancel = Anuluj
+@popup_warning_exit_game = Czy chcesz zapisać przed wyjściem?
+@popup_warning_load_game = Czy chcesz zapisać przed wczytaniem?
+@save = Zapisz
+@don't save = Nie zapisuj
+@popup_warning_corrupted_save = Wygląda na to, że wystąpił problem z wczytaniem {0}. Sprawdź sekcję dotyczącą kopii zapasowych, aby uzyskać więcej informacji.
+@popup_warning_failed_read_save = Nie udało się odczytać plików zapisu {0}. Upewnij się, że zamknąłeś wszystkie inne programy korzystające z tych plików i spróbuj ponownie.
+@popup_warning_failed_write_save = Nie udało się zapisać do plików zapisu {0}. Upewnij się, że zamknąłeś wszystkie inne programy korzystające z tych plików i spróbuj ponownie.
+@ok = ok
+@popup_warning_old_save = Ten plik zapisu pochodzi ze starszej wersji gry. Ponieważ drzewko technologiczne zostało przerobione, wszystkie ulepszenia zostały zresetowane do stanu, który ma więcej sensu w nowym systemie postępów.
