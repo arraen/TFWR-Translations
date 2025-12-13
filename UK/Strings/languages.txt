@@ -12,4 +12,4 @@
 @AR = Arabic
 @RU = Russian
 @PL = Polish
-@UA = Українська
+@UK = Українська
