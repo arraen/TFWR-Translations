@@ -12,3 +12,4 @@
 @AR = Arabisch
 @RU = Russisch
 @PL = Polnisch
+@UA = Ukrainisch
