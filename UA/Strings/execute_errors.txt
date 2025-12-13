@@ -1,79 +1,79 @@
-@error_code_after_block = Тут не повинно бути жодного коду. Спробуйте видалити його або помістити в новий рядок.
-@error_wrong_number_args = {0} приймає {1} аргументів. Ви викликали це з такими аргументами: {2}.
-@error_expected_no_args = {0} не приймає жодних аргументів.
-@error_wrong_args = {0}. аргумент {1} був {2}. Це не вагомий аргумент.
-@error_syntax_error_in_import = Імпортований модуль має синтаксичну помилку.
-@error_module_not_found = Модуль із такою назвою не існує. Ім’я має відповідати імені файлу. Це ім'я, яке відображається у верхній частині вікна.
-@error_list_element_not_found = {0} не є елементом у списку.
-@error_set_element_not_found = {0} не є елементом набору.
-@error_index_out_of_bounds = Індекс {0} був поза межами списку {1}.
-@error_index_out_of_bounds2 = Індекс був поза межами списку.
-@error_arith_assign_not_used_on_number = {0} можна використовувати лише для чисел.
-@error_bool_op_not_used_on_bool = Логічний оператор можна використовувати лише для булевих виразів, які мають значення `True` або `False`.
-@error_bad_bin_operator = Оператор {0} не можна використовувати в операндах {1} і {2}.
-@error_bad_unary_operator = Оператор {0} не можна використовувати на {1}.
-@error_index = {0} не можна використовувати як індекс на {1}.
-@error_index_on_non_indexable = Ви не можете індексувати в {0}.
-@error_zero_step = Розмір кроку не може дорівнювати нулю.
-@error_index_on_tuple = Ви не можете призначити елемент кортежу, оскільки кортежі незмінні.
-@error_bad_key = {0} не можна використовувати як ключ.
-@error_slice_dict = Неможливо розділити словники.
-@error_key = {0} не є ключем у словнику.
-@error_condition_not_bool = {0} не є дійсною умовою. Умова має бути логічним значенням. Це означає, що це має бути вираз, який завжди має значення «True» або «False».
-@error_for_requires_iterable = {0} не можна повторити в циклі for. Цикл for має отримати послідовність для повторення. приклад:
+@error_code_after_block = There shouldn't be any code here. Try removing it or putting it on a new line.
+@error_wrong_number_args = {0} takes {1} arguments. You called it with these arguments: {2}.
+@error_expected_no_args = {0} doesn't take any arguments.
+@error_wrong_args = The {0}. argument of {1} was {2}. This is not a valid argument.
+@error_syntax_error_in_import = The imported module has a syntax error.
+@error_module_not_found = A module with this name does not exist. The name needs to match a file name. This is the name displayed at the top of the window.
+@error_list_element_not_found = {0} is not an element in the list.
+@error_set_element_not_found = {0} is not an element of the set.
+@error_index_out_of_bounds = The index {0} was outside the bounds of the list {1}.
+@error_index_out_of_bounds2 = The index was outside the bounds of the list.
+@error_arith_assign_not_used_on_number = {0} can only be used on numbers.
+@error_bool_op_not_used_on_bool = A logic operator can only be used on boolean expressions that evaluate to `True` or `False`.
+@error_bad_bin_operator = The operator {0} cannot be used on the operands {1} and {2}.
+@error_bad_unary_operator = The operator {0} cannot be used on {1}.
+@error_index = {0} cannot be used as an index on {1}.
+@error_index_on_non_indexable = You cannot index into {0}.
+@error_zero_step = The step size cannot be zero.
+@error_index_on_tuple = You can't assign a tuple element because tuples are immutable.
+@error_bad_key = {0} cannot be used as a key.
+@error_slice_dict = Can't slice dictionaries.
+@error_key = {0} is not a key in the dictionary.
+@error_condition_not_bool = {0} is not a valid condition. The condition must be a boolean value. This means it must be an expression that is always either `True` or `False`.
+@error_for_requires_iterable = {0} can't be iterated in a for loop. The for loop must be given a sequence to iterate over. Example:
 
 `for i in range(5):`
-Тут range(5) повертає послідовність `0,1,2,3,4`.
-@error_no_loop_to_break = `break` можна використовувати лише всередині циклу.
-@error_no_loop_to_continue = `continue` можна використовувати лише всередині циклу.
-@error_no_function_to_return_from = `return` можна використовувати лише всередині функції.
-@error_missing_unlock = Це потрібно розблокувати перед використанням.
-@error_missing_x_unlock = {0} має бути розблоковано, перш ніж це можна буде використовувати.
-@error_name_not_defined = {0} ніколи не було визначено. Ви повинні призначити змінній значення перед її використанням.
-@error_missing_import = {0} ніколи не було визначено. Схоже, це визначено у файлі {1}. Ви забули це імпортувати? 
-Якщо ви його імпортували, можливо, у вас є цикл імпорту (дивіться сторінку документа імпорту).
-@error_missing_import_before_unlock = {0} ніколи не було визначено. Схоже, це визначено у файлі {1}. Ви повинні розблокувати імпорт, щоб мати можливість імпортувати речі з інших файлів.
-@error_missing_module_access = {0} ніколи не було визначено. Схоже, він визначений у файлі {1}, який імпортовано, але ви його не використовуєте. Вам потрібно отримати до нього доступ через назву модуля, як це:
+Here range(5) returns the sequence `0,1,2,3,4`.
+@error_no_loop_to_break = `break` can only be used inside of a loop.
+@error_no_loop_to_continue = `continue` can only be used inside of a loop.
+@error_no_function_to_return_from = `return` can only be used inside a function.
+@error_missing_unlock = This must be unlocked before it can be used.
+@error_missing_x_unlock = {0} must be unlocked before this can be used.
+@error_name_not_defined = {0} has never been defined. You must assign a value to a variable before using it.
+@error_missing_import = {0} has never been defined. It does appear to be defined in the file {1}. Did you forget to import that? 
+If you have imported it, you probably have an import cycle (See the import doc page).
+@error_missing_import_before_unlock = {0} has never been defined. It does appear to be defined in the file {1}. You have to unlock imports to be able to import things from other files.
+@error_missing_module_access = {0} has never been defined. It does appear to be defined in the file {1} which seems to be imported but you aren't using it. You need to access it through the module name like this:
 
 {1}`.`{0}
-@error_call_before_def = {0} не визначено. Здається, він визначений десь у цьому файлі, але визначення ще не виконано. Функції можна викликати лише після оператора `def`.
-@error_not_a_function = Ви намагалися викликати те, що не є функцією. Поширеною помилкою, яка може спричинити це, є наявність змінної з тим самим іменем, що й функція.
-@error_invalid_const = {0} не існує.
-@error_invalid_const2 = Цього не існує.
-@error_max_stack_size_reached = Було досягнуто максимального розміру стека викликів. Швидше за все, це пов’язано з надто великою кількістю рекурсивних викликів функцій.
-@error_max_comparison_depth = Було досягнуто максимальної глибини порівняння. Це може статися, наприклад, якщо ви порівнюєте списки, які містять самі себе.
-@error_assign_type_mismatch = Ліва сторона призначення не збігалася з правою.
-@error_too_many_values_to_unpack = Права сторона не містить достатньо значень для розпакування.
-@error_not_enough_values ​​= Права сторона містить занадто багато значень, щоб їх можна було розпакувати в ліву сторону.
-@error_empty_print = `print()` вимагає принаймні одного аргументу.
-@error_in_string = Неможливо перевірити, чи є {0} у рядку.
-@error_collection_changed_size_during_iteration = Розмір цієї колекції не можна змінити в циклі for, що виконується по ній. Це пояснюється тим, що зміна розміру колекції призведе до недійсності об’єкта ітератора, який використовує цикл for.
-@error_wrong_use_of_max = Неможливо обчислити максимум {0}.
-@error_wrong_use_of_min = Неможливо обчислити мінімальну кількість {0}.
-@error_function_as_condition = Спроба перевірити, чи функція {0} має значення `True`. Це сам об’єкт функції, а не значення, що повертається функцією. Ви мали на увазі викликати функцію за допомогою оператора виклику "()"?
+@error_call_before_def = {0} is not defined. It appears to be defined somewhere in this file, but the definition hasn't been executed yet. Functions can only be called after the `def` statement.
+@error_not_a_function = You tried to call something that is not a function. A common mistake that can cause this is having a variable with the same name as the function.
+@error_invalid_const = {0} doesn't exist.
+@error_invalid_const2 = This doesn't exist.
+@error_max_stack_size_reached = The maximum call stack size has been reached. This is most likely due to too many recursive function calls.
+@error_max_comparison_depth = The maximum comparison depth has been reached. This could happen, for example, if you are comparing lists that contain themselves.
+@error_assign_type_mismatch = The left hand side of the assignment didn't match the right hand side.
+@error_too_many_values_to_unpack = The right hand side doesn't contain enough values to unpack.
+@error_not_enough_values = The right side contains too many values to be unpacked into the left side.
+@error_empty_print = `print()` requires at least one argument.
+@error_in_string = Cannot check if {0} is in a string.
+@error_collection_changed_size_during_iteration = The size of this collection cannot be changed within a for loop iterating over it. This is because changing the size of the collection would invalidate the iterator object that the for loop is using.
+@error_wrong_use_of_max = Can't compute the max of {0}.
+@error_wrong_use_of_min = Can't compute the min of {0}.
+@error_function_as_condition = Trying to check if the function {0} is `True`. This is the function object itself, not the function's return value. Did you mean to call the function with the call operator `()`? 
 
-У Python об’єкти функцій є правдивими, що означає, що якщо ви використовуєте їх як умови, вони працюють як `True`, тому Python не видасть вам це повідомлення про помилку.
+In Python, functions objects are truthy, which means that if you use them as conditions, they work like `True`, so Python wouldn't give you this error message. 
 
-Це повідомлення про захисну помилку, ви можете вимкнути його в параметрах, якщо воно вам заважає.
-@error_function_in_operator = Спроба використати {1} для функції {0}. Це сам об’єкт функції, а не значення, що повертається функцією. Ви мали на увазі викликати функцію за допомогою оператора виклику "()"?
+This is a safeguard error message, you can turn it off in the options if it gets in your way.
+@error_function_in_operator = Trying to use {1} on the function {0}. This is the function object itself, not the function's return value. Did you mean to call the function with the call operator `()`? 
 
-Це повідомлення про захисну помилку, ви можете вимкнути його в параметрах, якщо воно вам заважає.
-@error_zero_step_size = Розмір кроку не може бути 0.
-@error_sequence_too_large = Послідовність завелика для копіювання.
-@error_invalid_sim_unlocks = Початкові розблокування були недійсними. Це має бути послідовність розблокувань або кортежів у формі `(Unlock.Carrots, 3)`.
-@error_invalid_sim_items = Початкові елементи були недійсними. Це має бути dict, який зіставляє елементи з числами, наприклад `{Items.Hay : 100}`.
-@error_invalid_sim_globals = Початкові глобальні дані були недійсними. Це має бути dict, який зіставляє імена змінних зі значеннями на зразок `{"x" : 42}`.
-@error_division_by_zero = О ні! Ви розділили на "0". Ви ледве пережили це.
-@error_negative_use_item = Використовуйте кількість предметів має бути принаймні `1`. Це було {0}.
-@error_use_before_assign = Спроба прочитати змінну {0} до того, як їй було призначено значення. 
-Якщо ви хочете змінити глобальну змінну, вам потрібно використати ключове слово global для запису в глобальну область.
+This is a safeguard error message, you can turn it off in the options if it gets in your way.
+@error_zero_step_size = The step size cannot be 0.
+@error_sequence_too_large = The sequence was too large to copy.
+@error_invalid_sim_unlocks = The starting unlocks were invalid. It needs to be a sequence of unlocks or tuples of the form `(Unlock.Carrots, 3)`.
+@error_invalid_sim_items = The starting items were invalid. It needs to be a dict mapping items to numbers like `{Items.Hay : 100}`.
+@error_invalid_sim_globals = The starting globals were invalid. It needs to be a dict mapping variable names to values like `{"x" : 42}`.
+@error_division_by_zero = Oh No! You divided by `0`. You just barely survived it.
+@error_negative_use_item = Use item quantity must be at least `1`. It was {0}.
+@error_use_before_assign = Tried to read the variable {0} before a value was assigned to it. 
+If you want to modify a global variable you have to use the global keyword to write to the global scope.
 
 `global x
 x += 1`
-@error_attribute_on_non_module = Ви не можете призначити атрибут {0}.
-@error_file_not_found = Файл {0} не існує.
-@error_max_drones_reached = Ліміт дронів перевищено.
-@error_dino_hat_already_used = Є лише один капелюх динозавра, і він уже використовується. Ви не можете використовувати його на другому дроні.
-@error_invalid_drone_id = Немає дрона з ID {0}.
-@error_invalid_handle = {0} більше не існує.
-@error_spawn_drone_builtin = Ви не можете використовувати `spawn_drone()` безпосередньо з вбудованими функціями. Ви повинні визначити свою власну функцію.
+@error_attribute_on_non_module = You can't assign an attribute to {0}.
+@error_file_not_found = The file {0} doesn't exist.
+@error_max_drones_reached = The drone limit was exceeded.
+@error_dino_hat_already_used = There is only one dinosaur hat and it's already in use. You can't use it on a second drone.
+@error_invalid_drone_id = There is no drone with ID {0}.
+@error_invalid_handle = {0} no longer exists.
+@error_spawn_drone_builtin = You can't use `spawn_drone()` with built-in functions directly. You have to define your own function.
