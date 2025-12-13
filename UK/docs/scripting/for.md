@@ -14,8 +14,8 @@
 
 `variable_name` може бути будь-яким ім'ям, яке ви виберете. Це змінна, яка зберігає поточний елемент у послідовності. `sequence` має бути значенням, яке можна ітерувати, наприклад, діапазоном чисел. Блок коду виконується для кожного елемента, при цьому змінна циклу присвоюється цьому елементу.
 
-## Sequences (Послідовності)
-[Ranges](functions/range)      <unlock=lists>[Lists](docs/scripting/lists.md)      </unlock><unlock=functions>[Tuples](docs/scripting/tuples.md)      </unlock><unlock=dicts>[Dictionaries](docs/scripting/dicts.md)      </unlock><unlock=sets>[Sets](docs/scripting/sets.md)</unlock>
+## Послідовності
+[Діапазони](functions/range)      <unlock=lists>[Списки](docs/scripting/lists.md)      </unlock><unlock=functions>[Кортежі](docs/scripting/tuples.md)      </unlock><unlock=dicts>[Словники](docs/scripting/dicts.md)      </unlock><unlock=sets>[Множини](docs/scripting/sets.md)</unlock>
 
 ## Приклад
 `for i in range(5):

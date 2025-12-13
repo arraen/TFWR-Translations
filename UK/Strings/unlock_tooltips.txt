@@ -10,7 +10,7 @@
 
 `while True:
     harvest()`
-@unlock_descr_hats = Капелюхи (Hats) для вашого дрона.
+@unlock_descr_hats = Капелюхи для вашого дрона.
 
 `change_hat(Hats.Green_Hat)`
 @unlock_descr_the_farmers_remains = ?????????
@@ -45,14 +45,14 @@ do_two_flips()`
 
 `till()
 plant(Entities.Carrot)`
-@unlock_descr_lists = Використовуйте списки (lists), щоб зберігати багато значень.
+@unlock_descr_lists = Використовуйте списки, щоб зберігати багато значень.
 
 `plants = [Entities.Grass, Entities.Bush, Entities.Tree]
 
 for p in plants:
     plant(p)
     move(North)`
-@unlock_descr_costs = Дозволяє отримати доступ до вартості (cost) речей.
+@unlock_descr_costs = Дозволяє отримати доступ до вартості речей.
 
 `cost = get_cost(Entities.Carrot)
 for item in cost:
@@ -64,14 +64,14 @@ for item in cost:
 
 `if get_entity_type() == Entities.Treasure:
     harvest()`
-@unlock_descr_debug = Інструменти, що допомагають у налагодженні (debugging) програм.
+@unlock_descr_debug = Інструменти, що допомагають у налагодженні програм.
 
 `print("привіт")`
-@unlock_descr_debug2 = Функції для тимчасового уповільнення виконання (execution) та зменшення розміру ферми.
+@unlock_descr_debug2 = Функції для тимчасового уповільнення виконання та зменшення розміру ферми.
 
 `set_world_size(3)
 set_execution_speed(1)`
-@unlock_descr_grass = Збільшує врожайність трави (grass).
+@unlock_descr_grass = Збільшує врожайність трави.
 @unlock_descr_auto_unlock = Автоматично розблоковує речі.
 
 `unlock(Unlocks.Megafarm)`
