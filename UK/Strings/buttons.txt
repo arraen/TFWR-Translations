@@ -8,7 +8,7 @@
 @open_folder = Відкрити теку
 @new_game = Нова гра
 @back = Назад
-@unlocks = Технології
+@unlocks = Розблокування
 @farm = Ферма
 @unlocked = Відкрито
 @upgrade = Покращити
