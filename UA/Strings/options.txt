@@ -31,14 +31,14 @@
 @viewport sliding = Розсувне вікно перегляду
 @UI size = Розмір інтерфейсу
 @file watcher = Монітор файлів
-@indent selection = Вибір відступу
+@indent selection = Збільшення відступу
 @menu = Меню
 @move down = Рух вниз
 @move left = Рух ліворуч
 @move right = Рух праворуч
 @move up = Рух вгору
-@redo 1 = Повторити
-@redo 2 = Повторити
+@redo 1 = Повернути
+@redo 2 = Те саме
 @undo = Відмінити
 @search = Пошук
 @unindent selection = Зменшення відступу
