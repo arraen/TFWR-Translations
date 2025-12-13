@@ -47,7 +47,7 @@
 @next step = Наступний крок
 @pause execution = Павза виконання
 @tabs to spaces = Таби в Пробіли
-@allow locked features = Дозволити заблоковані функції
+@allow locked features = Увімкнути заблоковані функції
 @error forgot call = Помилка про відсутність ()
 @print warnings = Друкувати попередження
 @code highlights = Підсвітка коду
