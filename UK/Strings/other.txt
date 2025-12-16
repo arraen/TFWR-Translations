@@ -1,18 +1,18 @@
 @word_number = число
 @word_direction = напрямок
-@run_cancelled = Запуск не вдався
-@average_text = {0} Запусків завершено ({2:F1}%)
+@run_cancelled = Помилка виконання
+@average_text = {0} Виконання завершено ({2:F1}%)
 {1}
-@average_text2 = {0} Запусків завершено
+@average_text2 = {0} Виконання завершено
 {1}
 @unlocked_in = Для додаткової інформації дивіться: [{0}]({1})
 @table_of_contents_section_general_info = Загальна інформація
 @table_of_contents_section_programming = Програмування
-@table_of_contents_section_unlocks = Технології
+@table_of_contents_section_unlocks = Розблокування
 @table_of_contents_section_builtins = Вбудовані функції
 @table_of_contents_section_items = Предмети
 @table_of_contents_section_entities = Об'єкти
-@table_of_contents_section_grounds = Землі
+@table_of_contents_section_grounds = Ґрунти
 @new_hat_unlocked = ## Новий капелюх розблоковано
 `change_hat(`{0}`)`
 @right_click_for_more_info = -- ПКМ для інформації --

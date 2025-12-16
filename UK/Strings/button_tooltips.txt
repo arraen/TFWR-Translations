@@ -17,9 +17,9 @@
 @button_tooltip_next_search = Перейти до наступного збігу пошукового запиту.
 @button_tooltip_previous_search = Перейти до попереднього збігу пошукового запиту.
 @button_tooltip_close_search = Закрити меню пошуку.
-@button_tooltip_open_unlock_menu = Відкрити дерево технологій.
-@warning_icon_tooltip = Ваш код викликав попередження. Натисніть піктограму, щоб переглянути деталі у вікні Output.
-@option_tooltip_graphics = Впливає на різні налаштування графіки, такі як тіні, ambient occlusion та bloom.
+@button_tooltip_open_unlock_menu = Відкрити дерево розблокувань.
+@warning_icon_tooltip = Ваш код викликав попередження. Натисніть піктограму, щоб переглянути деталі у вікні виведення.
+@option_tooltip_graphics = Впливає на різні налаштування конвеєра візуалізації, такі як тіні, оклюзія навколишнього середовища та колір.
 @option_tooltip_vfx_limit = Обмежує кількість візуальних ефектів, що можуть відтворюватися за секунду.
 @option_tooltip_volume = Налаштувати гучність усіх звуків.
 @option_tooltip_music_volume = Налаштувати гучність музики.
@@ -42,10 +42,10 @@
 @option_tooltip_print_warnings = Активує попередження та значок попередження, який іноді з'являється.
 @option_tooltip_language = Змінити мову гри.
 @option_tooltip_code_highlights = Вимкнути миготливе підсвічування під час виконання коду.
-@option_tooltip_resolution = Змінити розширення екрану.
+@option_tooltip_resolution = Змінити роздільну здатність екрана.
 @option_tooltip_increment_number_effect = Вимкнути ефекти в інвентарі, які відтворюються при зміні чисел.
-@keybind_tooltip_indent_selection = Додати відступ  до всіх вибраних рядків. Це має бути клавіша, яка вставляє символ, щоб це працювало. Тому комбінації з Ctrl або Alt не працюватимуть.
-@keybind_tooltip_unindent_selection = Видалити відступ  з усіх вибраних рядків. Це має бути клавіша, яка вставляє символ, щоб це працювало. Тому комбінації з Ctrl або Alt не працюватимуть.
+@keybind_tooltip_indent_selection = Додати відступ до всіх вибраних рядків. Це має бути клавіша, яка вставляє символ, щоб це працювало. Тому комбінації з Ctrl або Alt не працюватимуть.
+@keybind_tooltip_unindent_selection = Видалити відступ з усіх вибраних рядків. Це має бути клавіша, яка вставляє символ, щоб це працювало. Тому комбінації з Ctrl або Alt не працюватимуть.
 @keybind_tooltip_menu = Відкрити або закрити головне меню.
 @keybind_tooltip_move_down = Рухати камеру вниз.
 @keybind_tooltip_move_left = Рухати камеру вліво.
