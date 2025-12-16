@@ -124,7 +124,7 @@ other_file.function()`
 @carrots = Морква
 @costs = Вартості
 @debug = Налагодження
-@debug_2 = Debug_2
+@debug_2 = Налагодження_2
 @dictionaries = Словники
 @dinosaurs = Динозаври
 @expand = Розширення
