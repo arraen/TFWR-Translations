@@ -1,4 +1,4 @@
-@unlock_tooltip_template_cost = ### Unlock Cost {{{{itemblock cost unlock {0}}}}}
+@unlock_tooltip_template_cost = ### Вартість розблокування {{{{itemblock cost unlock {0}}}}}
 @unlock_descr_trees = Розблоковує дерева.
 
 `plant(Entities.Trees)`
