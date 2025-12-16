@@ -41,7 +41,7 @@
 @redo 2 = Повернути
 @undo = Скасувати
 @search = Пошук
-@unindent selection = Прибрати відступ
+@unindent selection = Зменшення відступу
 @start execution = Виконати
 @stop execution = Зупинити
 @next step = Наступний крок
