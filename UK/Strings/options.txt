@@ -7,12 +7,12 @@
 @screen mode = Режим екрану
 @fullscreen = Повноекранний
 @windowed = У вікні
-@high = Висока
+@high = Файна
 @medium = Середня
-@low = Низька
+@low = Бідна
 @sfx limit = Ліміт звуків
 @vfx limit = Ліміт ефектів
-@volume damping = Загасання гучності
+@volume damping = Згасання гучності
 @volume = Гучність
 @music volume = Гучність музики
 @SFX volume = Гучність ефектів
@@ -52,5 +52,5 @@
 @print warnings = Вивід попереджень
 @code highlights = Підсвітка коду
 @resolution = Роздільна здатність
-@increment number effect = Ефект зміни чисел
+@increment number effect = Ефект зміни предметів
 @hide UI = Приховати інтерфейс
